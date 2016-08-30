@@ -3,12 +3,12 @@
   (general
     (links 0)
     (no_connects 0)
-    (area 113.526475 24.292717 174.225046 80.322719)
+    (area 103.826286 22.225 179.335429 80.322719)
     (thickness 1.6)
     (drawings 17)
     (tracks 56)
     (zones 0)
-    (modules 18)
+    (modules 19)
     (nets 14)
   )
 
@@ -473,7 +473,7 @@
   )
 
   (module "MCQN Ltd:mcqn-logo-10mm" (layer F.Cu) (tedit 0) (tstamp 57BC88D7)
-    (at 165.487038 29.665574)
+    (at 165.487038 27.125574)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -670,7 +670,7 @@
   )
 
   (module Dustbox:Dustbox (layer F.Cu) (tedit 0) (tstamp 57C042B6)
-    (at 126.365 27.94)
+    (at 126.365 26.035)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -804,7 +804,7 @@
   )
 
   (module Dustbox:CitizenSense (layer F.Cu) (tedit 0) (tstamp 57C043A8)
-    (at 128.905 31.496)
+    (at 128.905 29.591)
     (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
       (effects (font (thickness 0.3)))
     )
@@ -1062,6 +1062,20 @@
       (xy -3.087077 -0.625231)) (layer F.SilkS) (width 0.01))
   )
 
+  (module Mounting_Holes:MountingHole_4-5mm (layer F.Cu) (tedit 57C0AE60) (tstamp 57C0ADF1)
+    (at 145.085 26.925)
+    (descr "Mounting hole, Befestigungsbohrung, 4,5mm, No Annular, Kein Restring,")
+    (tags "Mounting hole, Befestigungsbohrung, 4,5mm, No Annular, Kein Restring,")
+    (fp_text reference REF** (at 0 -5.99948) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_text value MountingHole_4-5mm (at 0.50038 6.49986) (layer F.Fab)
+      (effects (font (size 1 1) (thickness 0.15)))
+    )
+    (fp_circle (center 0 0) (end 4.5 0) (layer Cmts.User) (width 0.381))
+    (pad 1 thru_hole circle (at 0 0) (size 4.5 4.5) (drill 4.5) (layers))
+  )
+
   (gr_text Battery (at 131.699 60.325) (layer F.SilkS) (tstamp 57C02853)
     (effects (font (size 1 1) (thickness 0.2)))
   )
@@ -1098,12 +1112,12 @@
   (gr_text + (at 127.916878 65.642718 180) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
-  (gr_text "r20160826\nDesigned by" (at 150.882038 27.760574) (layer F.SilkS)
+  (gr_text "r20160826\nDesigned by" (at 150.882038 25.220574) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.2)) (justify left))
   )
-  (gr_line (start 172 24.367718) (end 172 80.247718) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 114 24.367718) (end 172 24.367718) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 114 80.247718) (end 114 24.367718) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 172 22.247718) (end 172 80.247718) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 114 22.247718) (end 172 22.247718) (layer Edge.Cuts) (width 0.15))
+  (gr_line (start 114 80.247718) (end 114 22.247718) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 172 80.247718) (end 114 80.247718) (layer Edge.Cuts) (width 0.15))
 
   (segment (start 119.026878 64.372718) (end 130.456878 64.372718) (width 0.25) (layer B.Cu) (net 1))
